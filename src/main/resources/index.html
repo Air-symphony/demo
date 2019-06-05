@@ -4,12 +4,24 @@
         <meta charset="UTF-8">
         <title>Webpack App</title>
 
+
         <script src="./bundle.js" defer></script>
-        <!--
-        <script src="./js/index.js" defer></script>
-        -->
     </head>
+    <style>
+        #cy {
+          height: 1000px;
+          display: block;
+          border: 1px solid blue;
+        }
+    </style>
+
     <body>
-        <div id="root"></div>
+        <div id="root">
+            <cytoscape></cytoscape>
+        </div>
+
+        <div id="components-demo">
+            <button-counter></button-counter>
+        </div>
     </body>
 </html>

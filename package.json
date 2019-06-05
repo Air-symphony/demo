@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cytoscape": "^3.6.2",
-    "jquery": "^3.4.1",
+    "css-loader": "^2.1.1",
+    "cytoscape": "^3.7.0",
+    "cytoscape-cola": "^2.3.0",
+    "style-loader": "^0.23.1",
     "vue": "^2.6.10",
     "webpack": "^4.32.2"
   },

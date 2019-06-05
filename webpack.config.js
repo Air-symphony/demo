@@ -6,5 +6,12 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'src/main/resources'),
         filename: 'bundle.js'
+    },
+    module: {
+        /* loaderの設定 */
+        rules: [
+            { test: /\.css$/, loader: "style!css" },
+        ]
     }
+
 }
